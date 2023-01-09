@@ -1,0 +1,65 @@
+.inputsection {
+  width: 60vw;
+  margin: 0px auto;
+}
+
+.input1,
+.input2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.input1 input,
+.input2 input {
+  outline: none;
+  border: solid 1px grey;
+  padding: 10px 20px;
+  margin: 0px 20px;
+}
+
+.input1 button,
+.input2 button {
+  background-color: rgb(11, 175, 19);
+  border: solid 1px transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.input2 button {
+  background-color: rgba(190, 19, 19, 0.76);
+  border: solid 1px transparent;
+  border-radius: 5px;
+  color: white;
+}
+
+.input1 button:hover {
+  border: solid 1px black;
+  background-color: transparent;
+  color: black;
+}
+
+table {
+  width: 50vw;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+th {
+  background-color: orangered;
+  color: white;
+  padding: 5px;
+}
+td,
+th {
+  border: solid 1px black;
+}
+
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
